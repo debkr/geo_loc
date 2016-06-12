@@ -1,5 +1,4 @@
-# GEO Location Lookup 1.0.0
-(GeoLoc100.py)
+# GEO Location Lookup 1.0.0 (GeoLoc100.py)
 
 A simple Python program to retrieve locations using Google GeoCoding API
 
@@ -35,10 +34,8 @@ Further improvements required:
 * It may be better to read all addresses (from file) into the database at one go - adding the 'new' indicator (0/1) set to 0 to indicate this is a new address whose geodata has not yet been looked up. The program could be amended to run the geodata lookup in batches of n (e.g. n=10 as used here) on the next n data rows selected from the database where new = 0.
 
 
-# GEO JavaScript Writer 1.0.0
-(GeoJS100.py)
+# GEO JavaScript Writer 1.0.0 (GeoJS100.py)
 
-## Description
 This second program is very simple. It selects all records from the database, ignores any records where latitude and/or longitude are null, and populates the remaining records to a JavaScript file in the form of a list of lists:
 
 geoData = [
