@@ -38,9 +38,9 @@ Further improvements required:
 
 This second program is very simple. It selects all records from the database, ignores any records where latitude and/or longitude are null, and populates the remaining records to a JavaScript file in the form of a list of lists:
 
-geoData = [
- [{latitude-string},{longitude-string}, {location-string-contained within single quotes}],
- [{latitude-string},{longitude-string}, {location-string-contained within single quotes}]
- ];
+geoData = [&nbsp;
+&nbsp;&nbsp;[{latitude-string},{longitude-string}, {location-string-contained within single quotes}],
+&nbsp;&nbsp;[{latitude-string},{longitude-string}, {location-string-contained within single quotes}]
+&nbsp;];
 
 
