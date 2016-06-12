@@ -8,14 +8,18 @@ A simple Python program to retrieve locations using Google GeoCoding API
 This program retireves location data using Google's Geocoding API and saves it in a database for later use in data visualisation on a Google Map. (Note: The Geocoding T's and C's require that this free service may only be used where the data is going to be displayed on a Google Map, not visualised through some other format.)
 
 Simple walkthrough of the process:
+
 1. Retrieve addresses of placenames from a file of location data.These might be a list of companies, holiday destinations, locations (town/city, country) of visitors to a website, or planned stop-offs en route during a road trip;
+
 1. Look up each of the address locations to check if they're already in an SQL database;
+
 1. If not already in the database, retrieve the location geodata from the Google GeoCoding API, extract the formatted address and lat/long data and append the following to the database:
   - address
   - raw geodata
   - location
   - latitude
   - longitude
+
 1. Save all changes to the database ready for another program to extract the geodata and plot it on a Google Map (e.g. for output to a web page via HTML).
 
 Some points to note:
